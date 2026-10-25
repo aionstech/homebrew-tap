@@ -27,7 +27,8 @@ class Triedit < Formula
   end
 
   # The app is a self-contained .NET program: its libraries find each other through @rpath, so keep those names.
-  preserve_rpath
+  # (Homebrew older than 5.0 does not have preserve_rpath; there the formula still installs, without it.)
+  preserve_rpath if respond_to?(:preserve_rpath)
 
   APP_NAME = "Animated Interactive Objects and Neural Software TriEdit".freeze
 
