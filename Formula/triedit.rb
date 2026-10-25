@@ -40,6 +40,8 @@ class Triedit < Formula
     # Apple silicon only runs signed code and this build has no Apple developer signature, so sign the program
     # for this Mac ("ad hoc", no account needed). Homebrew re-signs the libraries it adjusts the same way.
     system "/usr/bin/codesign", "--force", "--sign", "-", app if OS.mac?
+    # The native libraries (graphics, speech, microphone) get the same signature, in case any came unsigned.
+    Dir[libexec/"**/*.dylib"].each { |library| system "/usr/bin/codesign", "--force", "--sign", "-", library } if OS.mac?
 
     (bin/"triedit").write <<~SH
       #!/bin/bash
