@@ -1,28 +1,28 @@
 class Triedit < Formula
   desc "Office suite for Word documents, PDFs, Excel spreadsheets and PowerPoint slides"
   homepage "https://github.com/aionstech/homebrew-tap"
-  version "1.2.0"
+  version "1.3.0"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/aionstech/homebrew-tap/releases/download/triedit-v1.2.0/triedit-1.2.0-osx-arm64.tar.gz"
-      sha256 "8a17b3cd0c73d71e8baaa5154c9980ecc7eaf33b435ebe3290934a6a5d093139"
+      url "https://github.com/aionstech/homebrew-tap/releases/download/triedit-v1.3.0/triedit-1.3.0-osx-arm64.tar.gz"
+      sha256 "776e6f622e34860fe691192ef159dc660372f131383e0920aaed1383c369a558"
     end
     on_intel do
-      url "https://github.com/aionstech/homebrew-tap/releases/download/triedit-v1.2.0/triedit-1.2.0-osx-x64.tar.gz"
-      sha256 "a2214d8167176c14fd9cf734680c4136c0324766793db82173be94197ae52a33"
+      url "https://github.com/aionstech/homebrew-tap/releases/download/triedit-v1.3.0/triedit-1.3.0-osx-x64.tar.gz"
+      sha256 "91a72990e5f649b348a2dbb94e186dd4d97c6c0924a6ea1ac8ef4648f05b589c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/aionstech/homebrew-tap/releases/download/triedit-v1.2.0/triedit-1.2.0-linux-arm64.tar.gz"
-      sha256 "14eca4a670abed627b9e88efaeafb5fa350c6e056d6f2b3c7e94ad5bd01b96ce"
+      url "https://github.com/aionstech/homebrew-tap/releases/download/triedit-v1.3.0/triedit-1.3.0-linux-arm64.tar.gz"
+      sha256 "675ab0af3a92b218f2d011a1bb6a831ac820c2c51c8cbb44d8f248c9c1cfee2d"
     end
     on_intel do
-      url "https://github.com/aionstech/homebrew-tap/releases/download/triedit-v1.2.0/triedit-1.2.0-linux-x64.tar.gz"
-      sha256 "7aeb2a59b301e3c8100f319436947b01a129322b22c42d51f6c23d7d97257f50"
+      url "https://github.com/aionstech/homebrew-tap/releases/download/triedit-v1.3.0/triedit-1.3.0-linux-x64.tar.gz"
+      sha256 "4cebb042ddbdade7d0710559c7d61c3a02995252b2daddd37b7c2ae62561a6d7"
     end
   end
 
@@ -52,6 +52,8 @@ class Triedit < Formula
         triedit
       or open a file directly:
         triedit report.docx
+      Update later with:
+        brew upgrade triedit
     EOS
   end
 
