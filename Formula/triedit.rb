@@ -1,28 +1,28 @@
 class Triedit < Formula
   desc "Office suite for Word documents, PDFs, Excel spreadsheets and PowerPoint slides"
   homepage "https://github.com/aionstech/homebrew-tap"
-  version "1.3.0"
+  version "1.3.1"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/aionstech/homebrew-tap/releases/download/triedit-v1.3.0/triedit-1.3.0-osx-arm64.tar.gz"
-      sha256 "776e6f622e34860fe691192ef159dc660372f131383e0920aaed1383c369a558"
+      url "https://github.com/aionstech/homebrew-tap/releases/download/triedit-v1.3.1/triedit-1.3.1-osx-arm64.tar.gz"
+      sha256 "716e07bcae8547033cae8e3b45eb2e138d44603330f82d0956ddbd9bf2c70de5"
     end
     on_intel do
-      url "https://github.com/aionstech/homebrew-tap/releases/download/triedit-v1.3.0/triedit-1.3.0-osx-x64.tar.gz"
-      sha256 "91a72990e5f649b348a2dbb94e186dd4d97c6c0924a6ea1ac8ef4648f05b589c"
+      url "https://github.com/aionstech/homebrew-tap/releases/download/triedit-v1.3.1/triedit-1.3.1-osx-x64.tar.gz"
+      sha256 "e2d058e53ea16b2e35f73a018fcc8f059acc745d6338c09e9faf0950fd92620d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/aionstech/homebrew-tap/releases/download/triedit-v1.3.0/triedit-1.3.0-linux-arm64.tar.gz"
-      sha256 "675ab0af3a92b218f2d011a1bb6a831ac820c2c51c8cbb44d8f248c9c1cfee2d"
+      url "https://github.com/aionstech/homebrew-tap/releases/download/triedit-v1.3.1/triedit-1.3.1-linux-arm64.tar.gz"
+      sha256 "7fabf9bfa474f44b9b9a803798ae60daa2d30ef8867c03823889850ed068ef9a"
     end
     on_intel do
-      url "https://github.com/aionstech/homebrew-tap/releases/download/triedit-v1.3.0/triedit-1.3.0-linux-x64.tar.gz"
-      sha256 "4cebb042ddbdade7d0710559c7d61c3a02995252b2daddd37b7c2ae62561a6d7"
+      url "https://github.com/aionstech/homebrew-tap/releases/download/triedit-v1.3.1/triedit-1.3.1-linux-x64.tar.gz"
+      sha256 "f2c2183b77216e4c07171ac2029107fd6e59463d85a582339f9901d5f432e2c4"
     end
   end
 
@@ -57,6 +57,11 @@ class Triedit < Formula
         triedit report.docx
       Update later with:
         brew upgrade triedit
+
+      Privacy: on its first start TriEdit asks whether it may report the
+      installation (operating system, version and processor type only).
+      Nothing is sent unless you choose Allow. Privacy policy:
+        https://triedit.aions.click/privacy.html
     EOS
   end
 

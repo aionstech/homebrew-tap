@@ -36,6 +36,12 @@ On Linux it needs the usual desktop libraries (fontconfig, X11) and ICU, which m
 Dictate downloads a speech model (75 MB or larger, you choose) the first time you use it, after asking, and then works
 offline. On macOS, the microphone permission is asked for the terminal app you start TriEdit from.
 
+### Privacy
+
+On its first start TriEdit asks whether it may report the installation: the operating system, its version and the
+processor type, nothing else. Nothing is sent unless you choose Allow, and you can change it later with Privacy on the
+Help tab. See the [privacy policy](https://triedit.aions.click/privacy.html).
+
 ### About the macOS build
 
 The Mac build is signed during installation for that Mac only (an ad hoc signature), so it runs without an Apple
@@ -44,6 +50,6 @@ developer certificate. It is not notarised by Apple.
 ## Releases
 
 Downloads for every version are on the [releases page](https://github.com/aionstech/homebrew-tap/releases). Current version:
-1.3.0.
+1.3.1.
 
 TriEdit is proprietary software by AIONS. This repository only hosts the Homebrew formula and the release downloads.
