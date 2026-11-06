@@ -1,28 +1,28 @@
 class Triedit < Formula
   desc "Office suite for Word documents, PDFs, Excel spreadsheets and PowerPoint slides"
   homepage "https://github.com/aionstech/homebrew-tap"
-  version "1.3.5"
+  version "1.3.6"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/aionstech/homebrew-tap/releases/download/triedit-v1.3.5/triedit-1.3.5-osx-arm64.tar.gz"
-      sha256 "35cd521b37904c0461d81412962c756f93a6d743d749eba73353244a735d896a"
+      url "https://github.com/aionstech/homebrew-tap/releases/download/triedit-v1.3.6/triedit-1.3.6-osx-arm64.tar.gz"
+      sha256 "3e2fcd578c413ffd4eda20ec3499511b37572bc743632e1cf0a0db8f2918eaf4"
     end
     on_intel do
-      url "https://github.com/aionstech/homebrew-tap/releases/download/triedit-v1.3.5/triedit-1.3.5-osx-x64.tar.gz"
-      sha256 "8f69f3434397911272e7e0dad6edcb87d2f99d07fc2bad248ec51429899fa0a5"
+      url "https://github.com/aionstech/homebrew-tap/releases/download/triedit-v1.3.6/triedit-1.3.6-osx-x64.tar.gz"
+      sha256 "1060d007195eb89496436e2327d8c4d9203e2671e7f0eb9b0e46facb06263654"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/aionstech/homebrew-tap/releases/download/triedit-v1.3.5/triedit-1.3.5-linux-arm64.tar.gz"
-      sha256 "35da6e764e424de10c7640e3d6edd95fdb9316a5f8362a2d2cba454cfefb6ac0"
+      url "https://github.com/aionstech/homebrew-tap/releases/download/triedit-v1.3.6/triedit-1.3.6-linux-arm64.tar.gz"
+      sha256 "30a6cbda57d385819756d4c5a8b2acafc88e59a92793c2744c493df191b19767"
     end
     on_intel do
-      url "https://github.com/aionstech/homebrew-tap/releases/download/triedit-v1.3.5/triedit-1.3.5-linux-x64.tar.gz"
-      sha256 "0dc6222c7e96aef7b2536f9de5c910f0bec5cc794b49d4312ea2b8ad3a3b04af"
+      url "https://github.com/aionstech/homebrew-tap/releases/download/triedit-v1.3.6/triedit-1.3.6-linux-x64.tar.gz"
+      sha256 "668076981e7aa549bb455bb8d208fb19de2edf65e15615d59216af79e8a42a72"
     end
   end
 

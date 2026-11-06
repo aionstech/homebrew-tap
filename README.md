@@ -50,6 +50,6 @@ developer certificate. It is not notarised by Apple.
 ## Releases
 
 Downloads for every version are on the [releases page](https://github.com/aionstech/homebrew-tap/releases). Current version:
-1.3.5.
+1.3.6.
 
 TriEdit is proprietary software by AIONS. This repository only hosts the Homebrew formula and the release downloads.
